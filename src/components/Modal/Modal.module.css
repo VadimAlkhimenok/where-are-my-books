@@ -1,0 +1,45 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(19, 20, 39, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalBody {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Panel {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.Inputs {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(224, 223, 223);
+}

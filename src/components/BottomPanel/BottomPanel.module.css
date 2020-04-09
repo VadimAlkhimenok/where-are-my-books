@@ -1,0 +1,17 @@
+.BottomPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.BottomPanelForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: auto;
+    bottom: 3%;
+    z-index: 101;
+}

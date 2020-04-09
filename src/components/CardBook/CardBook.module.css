@@ -1,0 +1,9 @@
+.CardBook {
+    min-height: 150px;
+    border: 1px solid rgb(209, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
